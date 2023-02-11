@@ -139,7 +139,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><strong>London Business School</strong></h5>
+          <h5 class="w3-opacity"><strong>London Cloud-based School </strong></h5>
           <h6 class="w3-text-teal"><em class="fa fa-calendar fa-fw w3-margin-right"></em>2013 - 2015</h6>
           <p>Master Degree</p>
           <hr>
