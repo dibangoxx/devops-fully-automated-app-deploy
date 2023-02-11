@@ -114,19 +114,19 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container">
           <h5 class="w3-opacity"><strong>Front End Developer / w3schools.com</strong></h5>
           <h6 class="w3-text-teal"><em class="fa fa-calendar fa-fw w3-margin-right"></em>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <p>I want to take a moment to express my gratitude and thankfulness to You. Your love and kindness towards me are immeasurable and incomparable. Your unwavering presence in my life has been a source of strength, comfort, and hope.</p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><strong>Web Developer / something.com</strong></h5>
           <h6 class="w3-text-teal"><em class="fa fa-calendar fa-fw w3-margin-right"></em>Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <p>Cloud computing has become a critical component of many organizations' IT infrastructure. The demand for skilled professionals who can design, implement, and manage cloud solutions is growing rapidly, making it a valuable area of study for those looking to pursue a career in technology.</p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><strong>Graphic Designer / designsomething.com</strong></h5>
           <h6 class="w3-text-teal"><em class="fa fa-calendar fa-fw w3-margin-right"></em>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+          <p>Studying cloud security is critical for those who want to ensure that they can effectively secure their organization's cloud-based operations. </p><br>
         </div>
       </div>
 
