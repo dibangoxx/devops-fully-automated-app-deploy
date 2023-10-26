@@ -82,12 +82,18 @@ pipeline {
 
         stage('Upload artifact to Nexus') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'nexus-credentials', passwordVariable: 'PASSWORD', usernameVariable: 'USER_NAME')]) {
-                sh "sed -i \"s/.*<username><\\/username>/<username>$USER_NAME<\\/username>/g\" ${WORKSPACE}/nexus-setup/settings.xml"
-                sh "sed -i \"s/.*<password><\\/password>/<password>$PASSWORD<\\/password>/g\" ${WORKSPACE}/nexus-setup/settings.xml"
-                sh 'cp ${WORKSPACE}/nexus-setup/settings.xml /var/lib/jenkins/.m2'
-                sh 'mvn clean deploy -DskipTests'
-                }
+                 nexusArtifactUploader artifacts: [
+                     [
+                         artifactId: 'maven-project', 
+                         classifier: '', 
+                         file: 'target/Maven Project-1.0. war', type: 'war',
+                     ]
+                ], credentialsId: 'nexus-credentials', 
+                   groupId: 'com.example.maven-project', nexusUrl: '172.31.48.110', 
+                   nexusVersion: 'nexus2', 
+                   protocol: 'http', 
+                   repository: 'http://54.90.6.85:8081/#admin/repository/repositories', 
+                   version: '1.0.'                
                
             }
         }
